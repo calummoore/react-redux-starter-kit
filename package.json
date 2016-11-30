@@ -76,6 +76,15 @@
   "author": "David Zukowski <david@zuko.me> (http://zuko.me)",
   "license": "MIT",
   "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^3.0.0",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.0.0"
+  },
+  "devDependencies": {
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.5",
     "babel-plugin-transform-runtime": "^6.15.0",
@@ -98,20 +107,6 @@
     "node-sass": "^3.7.0",
     "normalize.css": "^5.0.0",
     "postcss-loader": "^1.1.0",
-    "react": "^15.0.0",
-    "react-dom": "^15.0.0",
-    "react-redux": "^4.4.5",
-    "react-router": "^3.0.0",
-    "redux": "^3.6.0",
-    "redux-thunk": "^2.0.0",
-    "rimraf": "^2.5.4",
-    "sass-loader": "^4.0.0",
-    "style-loader": "^0.13.1",
-    "url-loader": "^0.5.6",
-    "webpack": "^1.12.14",
-    "yargs": "^6.3.0"
-  },
-  "devDependencies": {
     "babel-eslint": "^7.1.0",
     "babel-plugin-istanbul": "^2.0.1",
     "chai": "^3.4.1",
@@ -143,6 +138,12 @@
     "sinon": "^1.17.5",
     "sinon-chai": "^2.8.0",
     "webpack-dev-middleware": "^1.6.1",
-    "webpack-hot-middleware": "^2.12.2"
+    "webpack-hot-middleware": "^2.12.2",
+    "rimraf": "^2.5.4",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.14",
+    "yargs": "^6.3.0"
   }
 }
