@@ -1,10 +1,11 @@
 import React from 'react'
+import './icons/counter.font'
 
 export const Counter = (props) => (
   <div style={{ margin: '0 auto' }} >
     <h2>Counter: {props.counter}</h2>
     <button className='btn btn-default' onClick={props.increment}>
-      Increment
+      <i className="counter counter-icon-like"></i>Increment
     </button>
     {' '}
     <button className='btn btn-default' onClick={props.doubleAsync}>
