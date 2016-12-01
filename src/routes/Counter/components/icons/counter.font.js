@@ -1,9 +1,9 @@
-module.exports={
-  "files": [
-    "./*.svg"
+module.exports = {
+  'files': [
+    './*.svg'
   ],
-  "fontName": "counter-font",
-  "classPrefix": "counter-icon-",
-  "baseClass": "counter",
-  "fixedWidth": true
-};
+  'fontName': 'counter-font',
+  'classPrefix': 'counter-icon-',
+  'baseClass': 'counter',
+  'fixedWidth': true
+}

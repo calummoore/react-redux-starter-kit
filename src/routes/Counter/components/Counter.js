@@ -5,7 +5,7 @@ export const Counter = (props) => (
   <div style={{ margin: '0 auto' }} >
     <h2>Counter: {props.counter}</h2>
     <button className='btn btn-default' onClick={props.increment}>
-      <i className="counter counter-icon-like"></i>Increment
+      <i className='counter counter-icon-like' />Increment
     </button>
     {' '}
     <button className='btn btn-default' onClick={props.doubleAsync}>
